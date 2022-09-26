@@ -1,17 +1,17 @@
 // License       : License.txt
-// Specifications: Spec-00000057.pdf
+// Specifications: Spec-00000058.pdf
 /*-- File Header Comment Start -----------------------------------------------*/
 // File Name        : user_define.h
-// BSL              : 00000057
+// BSL              : 00000058
 /*-- File Header Comment End -------------------------------------------------*/
 
 #ifndef __USER_DEFINE_H__
 #define __USER_DEFINE_H__
 
-#include "Arduino.h"
-#include "oss_ec_00000057.h"
+#include "mbed.h"
+#include "oss_ec_00000058.h"
 
-#define iADC_bit                10U                             // MPU ADC bit
+#define iADC_bit                16U                             // MPU ADC bit
 #define iADC_vdd                2.7F                            // MPU Vdd Configures the reference voltage [V]
 #define iVref                   2.7F                            // Configures the reference voltage
 
