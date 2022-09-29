@@ -3,6 +3,8 @@
 /*-- File Header Comment Start -----------------------------------------------*/
 // File Name        : S58LM20A.h
 // Reason for change: 01.00.00 : 12/09/'22 : New Release
+//                    01.01.00 : 29/09/'22 : Data correction
+//                                           Comment correction
 // Nickname         : Blue Dragon
 /*-- File Header Comment End -------------------------------------------------*/
 
@@ -12,12 +14,12 @@
 #include "user_define.h"
 
 // Components number
-#define iS58LM20A               103U                    // ABLIC S58LM20A
+#define iS58LM20A               103U                    // ABLIC S-58LM20A
 
-// MS58LM20A System Parts definitions
-#define iS58LM20A_xoff         ( 0.561111F*iADC_vdd )   // X offset [V]
+// S-58LM20A System Parts definitions
+#define iS58LM20A_xoff         1.515F                   // X offset [V]
 #define iS58LM20A_yoff         30.0F                    // Y offset [degree celsius]
-#define iS58LM20A_gain         ( -0.00436F*iADC_vdd )   // Gain [V/degree celsius]
+#define iS58LM20A_gain         -0.01177F                // Gain [V/degree celsius]
 #define iS58LM20A_max          130.0F                   // Temperature Max [degree celsius]
 #define iS58LM20A_min          -30.0F                   // Temperature Min [degree celsius]
 

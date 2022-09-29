@@ -12,8 +12,8 @@
 #include "oss_ec_00000058.h"
 
 #define iADC_bit                16U                             // MPU ADC bit
-#define iADC_vdd                2.7F                            // MPU Vdd Configures the reference voltage [V]
-#define iVref                   2.7F                            // Configures the reference voltage
+#define iADC_vdd                3.3F                            // MPU Vdd Configures the reference voltage [V]
+#define iVref                   3.3F                            // Configures the reference voltage
 
 #define iS58LM20A_pin           A0                              // ADC pin
 
@@ -24,8 +24,8 @@
 //#define iMA                     iWMA                            // Weighted moving average filter
 
 //#define iS58LM20A_SMA_num       4U                              // Simple moving average number & buf size
-//#define iS58LM20A_EMA_K         0.25F                           // Exponential Smoothing Factor
-//#define iS58LM20A_WMA_num       4U                              // Weighted moving average number & buf size
+//#define iS58LM20A_EMA_K         0.75F                           // Exponential Smoothing Factor
+//#define iS58LM20A_WMA_num       3U                              // Weighted moving average number & buf size
 
 #define iS58LM20A_ma            iMA                             // Moving average select
 
